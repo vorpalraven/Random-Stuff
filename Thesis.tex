@@ -1,0 +1,206 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{fontspec}
+  \setmainfont{Linux Libertine O}
+\usepackage[margin=1in]{geometry}
+\usepackage{polyglossia}
+  \setdefaultlanguage[variant=american]{english}
+\usepackage[backend=bibtex]{biblatex}
+  \addbibresource{/home/zeid/Documents/Thesis/Library.bib}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+%-------------------------------------------------
+
+\begin{document}
+
+\pagenumbering{roman}
+
+\begin{titlepage}
+  \begin{center}
+  
+    \vspace*{1 in} 
+    
+    \Large Impact of Hybridization of Biopolymers on Characteristics of $\kappa$-Carrageenan Aerogels \\
+    
+    \vspace*{1 in} 
+    
+    \large \textbf{By: Zeid Habjoka} \\
+    \large \textbf{Supervisor: Dr. Mohammad Al-Naief} \\
+    
+    \vspace*{1 in} 
+    
+    \large A thesis presented in partial requirement for B.S. Pharmaceutical/Chemical Engineering \\
+    
+    \vspace*{1 in}
+    
+    \large Department of Pharmaceutical/Chemical Engineering \\
+    \large German-Jordanian University \\
+    \large Jordan \\
+    
+    \vspace*{1 in}
+    
+    \large \today
+    
+    \vfill
+    
+  \end{center}
+\end{titlepage}
+
+\newpage
+
+\tableofcontents
+
+\vfill
+
+\newpage
+  
+\pagenumbering{arabic}
+
+\begin{center}
+  \section{Introduction}
+\end{center}
+
+\subsection{Background}
+
+One of the many challenges of modern medicine is the efficient and effective use of medicaments. Many drugs, such as class II and IV according to the Biopharmaceutical Classification System, are poorly soluble, and as such, exhibit poor bioavailability within the bloodstream. Nanoporous materials may be used as carriers for such drugs, enhancing the effects of the drugs and protecting them from degradation, hence allowing for lower dosages to be used and thereby increasing patient comfort.\supercite{ulker_emerging_2014}
+
+\subsection{Aims \& Objectives}
+
+The aim of this project is to examine the impact of the hybridization of various biopolymers such as alginate and starch with $\kappa$-carrageenan on the resulting aerogel's surface area, which in turn will grant us an indication of the efficacy of said gel as a carrier for medical substances. The impact of the composition of the gel will be examined as well as the temperature profile that the gel was subjected during the production process, with the gels being prepared utilizing supercritical fluid extraction with carbon dioxide, and the gels being characterized using the BET method.
+
+\subsection{Outlines}
+
+The project may be summarized with the following outline:
+
+\begin{enumerate}
+	\item Preparation of the hydrogels.
+	\item Drying of the hydrogels to form aerogels.
+	\item Assay of the resulting aerogels' surface area.
+\end{enumerate}
+
+\newpage
+
+\section{Methodology}
+
+The following procedure was utlized to prepare pure carragenan gels to be used as control subjects, in addition to the starch-carrageenan hybrid gels, and is adapted from Quignard et. al\supercite{quignard_aerogel_2008};
+
+\begin{enumerate}
+	\item Disperse carrageenan and starch in distilled water at 80 °C for 30 minutes.
+	\item Prepare a 0.6 M solution of KCl and add the carrageenan solution drop-wise thereto.
+	\item Age the beads for 12 hours in this solution, filter and wash with cold distilled water.
+	\item Suspend the beads in ethanol solutions of 30\%, 50\%, 70\%, 90\% v/v for 2-3 hours each, followed lastly by two suspensions in absolute ethanol for the same length of time.
+	\item Upon finishing, employ supercritical extraction at 40 °C and 105 bar.   
+\end{enumerate}
+
+In order to examine the impact of the temperature profile on the gels' properties, the first step of the procedure was altered whereby instead, the carrageenan and starch were dissolved first in distilled water at \emph{room temperature}, whereafter the mixture was heated till 80 °C for 30 minutes.
+
+Hybrid gels of $\kappa$-carrageenan and sodium alginate were prepared by the following method;
+
+\begin{enumerate}
+  \item Prepare 3\% wt/wt solutions of carrageenan and alginate \emph{seperatly}. Allow both to cool till room temperature.
+  \item Weight out the appropriate amounts of each hydrogel and mix them continuosly and vigorously at 80 °C for 5 minutes.
+  \item Add the resulting mixture to 0.6 M KCl dropwise. Allow to age for 12 hours, and then employ the same successive solvent exchange and drying processes as outlined above.
+\end{enumerate}
+
+To examine the impact of the temperature profile on the gels' properties, the procedure was repeated, this time heating both gels seperatly till 80 °C and then mixing them.
+
+Gels were prepared containing varying proportions of carrageenan. For example, a 1 wt\% starch-carrageenan solution were prepared, with different ratios of carrageenan to starch e.g. 1:1, 1:2, and 2:1, all using the same method for preparation. As such, all other factors being held constant, the impact of the hybridizing material could be examined meaningfully. For example, in the case of a 3\% by weight carrageenan-starch gel solution, the following masses were dissolved in 97 g of distilled water;
+
+\begin{table}[H]
+\caption{List of proportions utlized in producing starch-carrageenan hybrid hydrogels}
+\label{tab1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{\#} & \textbf{Mass (Carrageenan) / g} & \textbf{Mass (Starch) / g} & \textbf{Total Mass / g} & \textbf{Ratio} \\ \midrule
+\textbf{1} & 1.5 & 1.5 & 3 & 1:1 \\
+\textbf{2} & 1 & 2 & 3 & 1:2 \\
+\textbf{3} & 2 & 1 & 3 & 2:1 \\
+\textbf{4} & 3 & 0 & 3 & - \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[H]
+\caption{List of proportions utlized in producing starch-alginate hybrid hydrogels}
+\label{tab1}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{\#} & \textbf{Mass (Carrageenan) / g} & \textbf{Mass (Alginate) / g} & \textbf{Total Mass / g} & \textbf{Ratio} \\ \midrule
+\textbf{1} & 1.5 & 1.5 & 3 & 1:1 \\
+\textbf{2} & 1 & 2 & 3 & 1:2 \\
+\textbf{3} & 2 & 1 & 3 & 2:1 \\
+\textbf{4} & 3 & 0 & 3 & - \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\newpage
+
+\begin{center}
+  \section{Literature Review \& Theoretical Background}
+\end{center}
+
+\subsection{Theoretical Background}
+
+\subsubsection{Aerogel Definition \& Classification}
+
+The problems associated with the delivery of free drugs into the body include rapid breakdown \textit{in vivo}, unfavorable pharmacokinetics resulting from their often poor solubility, resulting in turn in poor biodistribution.\supercite{maleki_synthesis_2016} There are already several established methods by which the solubility of such compounds may be improved upon. For example, alteration of the pH to favor the dissociation of the drug into its ionized form, or the use of co-solvents to improve th solvating power of the medium, or complexation with cyclodextrins or other such materials. Each of these approaches carries with it inherent risks and advantages. For example, use of organic co-solvents is made more difficult by the fact that not many water-miscible organic solvents are suitable for human consumption, and of those that are, heavy restrictions on their use are often found.\supercite{aulton_aultons_2013}
+
+On the other hand, nanoporous materials have the advantage in massive surface areas, allowing for much more rapid dissolution of the drugs. Furthermore, interesting avenues are opened up for routes of administration such as the pulmonary route, since aerogels are finely divided powders which may be inhaled and subsumed rapidly into the bloodstream. Plus, polysaccharide precursors such as starch, alginate, and carrageenan are cheap and plentiful, and make for a economically and environmentally sustainable technology.\supercite{garcia-gonzalez_polysaccharide-based_2011} In addition, aerogels have been, and are being, developed for use as controlled-release systems to control the delivery of drugs to the target site where they are needed in addition to protecting the drug from biochemical degradation. This increases the effect of the drug in the body, thereby not only ensuring that a lower dose of the drug could be used than what would otherwise be needed, which, in addition to improving patient comfort and compliance, increases economic efficiency.\supercite{vallet-regi_mesoporous_2007}
+
+Aerogels are colloidal suspensions whose liquid content has been replaced with a gas, often air. They were first synthesized in 1931 by Samuel Kistler.\supercite{ulker_emerging_2014} Aerogels have found application in numerous fields, ranging from chemical engineering, electrotechnics, to life sciences, where a great deal of research has been conducted into their use as tissue engineering substrates, as well as implants.\supercite{stergar_review_2016} 
+
+Aerogels are often classified according to their material of origin. They are classed in the following categories\supercite{stergar_review_2016};
+
+\begin{description}
+	\item [Inorganic] Usually made from metal alkoxides such as silica and titania.
+	\item [Organic] Usually made form biopolymers such as starch, cellulose, and carrageenan.
+	\item [Hybrid] Also known as composite aerogels. These may be made from, as the name suggests, substances of inorganic and organic origin, in all manner of combination. These combine the features of both organic and inorganic aerogels, for example, Shchipunov (2003) synthesized aerogels which were hybrids of silica and various forms of carrageenan.\supercite{shchipunov_solgel-derived_2003}
+
+\end{description}
+
+Inorganic aerogels, while biocompatible, are non-biodegradable. As such, this complicates
+their use in \textit{in vivo} settings and limits their overall value. Organic aerogels, on the other hand, share many of the same properties as their inorganic counterparts, with the added benefit of biodegradability, making them ideal as drug delivery systems.\supercite{ulker_emerging_2014}
+
+\subsubsection{Aerogel Production}
+
+There are multiple approaches to aerogel production, but they fall roughly into three distinct phases\supercite{ulker_emerging_2014}:
+
+\begin{enumerate}
+	\item Hydrogel formation: In the case of inorganic aerogels, the alkoxide in question is mixed with water, initiating a reaction where the alkoxide groups are replaced by hydroxyl groups. In the case of organic aerogels, a hydrogel is formed by using a cross-linking promoter either of a chemical or physical nature.
+	\item Solvent Exchange: the hydrogel is placed in in a pure solvent to replace the water content and remove any impurities, transforming them into alcogels. Prior to that however, inorganic hydrogels must be placed in an aging solution of water and alcohol to ensure that no unreacted alkoxide or alcohol groups remain.
+	\item Drying: usually done using supercritical carbon dioxide, which due to its lack of surface tension ensuring that it can pass through the gel’s matrix and dissolve the liquid portion without collapsing the delicate structure. However, freeze drying may also be utilized.
+\end{enumerate} 
+
+Aerogels may be synthesized as either monoliths or granules.\supercite{stergar_review_2016} Spherical aerogels may also be produced via emulsion polymerization, in which an emulsion is prepared by mixing the hydrogel base with a suitable organic phase, along with the addition of a surfactant, after which gelation is allowed take place. After removing the microspheres from the organic phase, supercritical drying is used. The size of the spheres may be adjusted by adjusting the concentration of the surfactant being used, as demonstrated by Gonçalves et. al.\supercite{goncalves_alginate-based_2016} The structure of the aerogel may be further modified by altering the concentration of the base material upon preparation of the hydrogel, as well as by the use of different cross-linking ions.\supercite{mallepally_superabsorbent_2013}
+
+\subsubsection{Delivery System Preparation}
+
+The drug delivery system must be prepared by loading the vehicle i.e. aerogel with the appropriate drug. There are several methods which may be used, depending on which stage of the gel’s manufacturing is being utilized. Firstly, the drug may be loaded into the drug by adding it prior to gelation. This method’s main advantage lies in its simplicity. Secondly, the drug maybe added the during the aging step (After hydrogel formation but before alcogel formation). One must bear in mind, however, that method’s duration can be long depending on the diffusion rate of the drug molecules into the pores of the alcogel. Thirdly, Contacting the finished gel with a solution of the drug in question, allowing it to diffuse into the pores. For example, Abhari et al. (2017) submerged aerogel cylinders in 2 mL of trans-2-hexenal, the volume of which was ”...based on a series of preliminary experiments with various volumes.” Afterwards, the cylinders in question were allowed to dry in air for 10 seconds and then weighed to determine the loading ratio.\supercite{abhari_structure_2017} Eleftheriadis et. al. referred to this method as ”passive loading”.\supercite{eleftheriadis_evaluation_2016} Furthermore, aerogels may be employed as coatings to enhance or alter the release profiles of drugs, as elucidated by Gultepe et al. in their article. While this article discussed the use of inorganic coatings, the principle could possibly be extended to make use of polysaccharide-based nanoporous materials.\supercite{gultepe_nanoporous_2010} Finally, the drug in question may be dissolved in supercritical carbon dioxide, however one must take into consideration the drug’s solubility in the supercritical phase and its affinity for the gel’s surface, which may complicate the issue. In all of these methods, one must bear in mind not only the size of the pores and the diffusing molecules, but also the possible hydrophobic nature of the gel’s surface, since this would not only hinder the passage of the drug into the pores, but lead to collapse of the gel’s matrix upon immersion in the contacting solution.\supercite{ulker_emerging_2014}
+
+\subsection{Literature Review}
+
+Carrageenans are a family of linear polysaccharides extracted primarily from red seaweed. They find a great deal of application in the food industry as gelling agents and thickeners. They are primarily divided into three distinct classes; kappa, lambda, and iota.\supercite{stanley_chapter_nodate} The first two form gels upon exposure to metal ions, specifically potassium and calcium, respectively. The latter does not form gels.\supercite{garcia-gonzalez_polysaccharide-based_2011}
+
+Given the well-established precedent for its use in life sciences, its is no wonder that carrageenan has seen quite a bit of research devoted to its use as a carrier. For example, Abdelghany et. al. (2017) have used $\kappa$-carrageenan-stabilized chitosan/alginate nanoparticles as carriers for the anti-tuberculosis drug ethionamide. In it, 3 formulations with differing concentrations of carrageenan were evaluated as to “particles size, zeta potential, entrapment, and release”, with great potential being observed.\supercite{abdelghany_carrageenan-stabilized_2017}
+
+Manzocco et. al. (2017) used oleogels prepared using $\kappa$-carrageenan aerogels as a base, done by preparation of carrageenan aerogels of varying concentration, which in turn were converted into alcogels and then dried using supercritical carbon dioxide. Upon drying, the aerogels were converted into oleogels via oil absorption. The resulting aerogels were “... highly porous and structurally stable materials with high mechanic strength”. Furthermore, their biodegradability and high lipohilic-molecule-absorption capabilities were also remarked upon. In addition, carrageenan-based oleogels were also observed to show great promise in the life sciences.\supercite{manzocco_exploitation_2017}
+
+Robitzer et. al. (2011) prepared several aerogels based on carbohydrate polysaccharides such as alginate, chitosan, and $\kappa$-carrageenan, with the aim of examining their surface areas and porosities using nitrogen physiosorption. Electron microscopy was also used to gain a deeper understanding of the texture of the gels produced, which in turn aided in understanding the gelling mechanism and the effects of drying on the gel matrices.\supercite{robitzer_nitrogen_2011}
+
+Ganesan \& Ratke (2014) prepared monolithic $\kappa$-carrageenan aerogels using potassium thiocyanate as a gelling agent, after which the gels were dried using supercritical carbon dioxide. The aerogels made were characterized using envelope density analysis, scanning electron microscopy, nitrogen adsorption–desorption analysis, X-ray powder diffractometry, as well as IR spectroscopy. It was determined that sulfate functional groups present in $\kappa$-carrageenan, as well as the ions responsible for gelation are essential in controlling the extent of shrinkage during the drying process. Furthermore, a clear correlation has been established between the concentration of $\kappa$-carrageenan and the envelope density, with variation between 0.5 and 3 wt\% leading to increases in envelope density from 40 to \SI{160}{kg\cdot m^-3}.\supercite{ganesan_facile_2014}
+
+\begin{center}
+  \section{Bibliography}
+\end{center}
+
+
+\printbibliography
+
+\end{document}
